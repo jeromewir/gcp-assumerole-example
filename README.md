@@ -1,1 +1,1 @@
-[Deploy to GCP](https://deploy.cloud.google.com/deploy?repo=https://github.com/jeromewir/gcp-assumerule-example)
+[Deploy to GCP](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/jeromewir/gcp-assumerule-example&cloudshell_startup_script=setup.sh)
