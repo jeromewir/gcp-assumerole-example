@@ -60,7 +60,7 @@ echo "  - BigQuery Data Viewer (roles/bigquery.dataViewer)"
 echo "  - Storage Object Viewer (roles/storage.objectViewer)"
 echo
 echo "Initializing Terraform..."
-terraform init -quiet > /dev/null
+terraform init > /dev/null
 echo
 echo "Terraform will now show you the exact changes to be made."
 echo "---------------------------------------------------------------------"
