@@ -1,0 +1,1 @@
+[Deploy to GCP](https://deploy.cloud.google.com/deploy?repo=https://github.com/jeromewir/gcp-assumerule-example)

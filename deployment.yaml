@@ -1,0 +1,14 @@
+resources:
+- name: grant-mysaas-bigquery-access
+  type: gcp-types/cloudresourcemanager-v1:virtual.projects.iamMemberBinding
+  properties:
+    resource: $(env.project)
+    role: roles/bigquery.dataViewer
+    member: "serviceAccount:customer-accessor@my-saas-project.iam.gserviceaccount.com"
+
+- name: grant-mysaas-storage-access
+  type: gcp-types/cloudresourcemanager-v1:virtual.projects.iamMemberBinding
+  properties:
+    resource: $(env.project)
+    role: roles/storage.objectViewer
+    member: "serviceAccount:customer-accessor@my-saas-project.iam.gserviceaccount.com"
