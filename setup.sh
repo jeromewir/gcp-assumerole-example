@@ -15,6 +15,8 @@ echo
 echo "Terraform will now show you the exact changes to be made."
 echo "---------------------------------------------------------------------"
 
+terraform init
+
 # The 'plan' command shows the user what will happen before they approve.
 terraform plan
 
